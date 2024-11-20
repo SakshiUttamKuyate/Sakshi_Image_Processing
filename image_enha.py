@@ -72,7 +72,7 @@ def main():
         - Applying a mask to the image
         """)
 
-        st.image("https://placekitten.com/800/400", caption="Image Processing Demo", use_column_width=True)
+       # st.image("https://placekitten.com/800/400", caption="Image Processing Demo", use_column_width=True)
 
     # Image Processing tab
     with tabs[1]:
@@ -124,8 +124,8 @@ def main():
         This app is powered by OpenCV, NumPy, and Streamlit. 
         It's designed to demonstrate basic image processing techniques.
         """)
-        st.write("**Developer:** Your Name")
-        st.write("**GitHub:** [Your GitHub Link](https://github.com/your-profile)")
+        st.write("**Developer:** Sakshi Uttam Kuyate")
+        st.write("**GitHub:** [Your GitHub Link](https://github.com/SakshiUttamKuyate/Sakshi_image_processing/tree/main)")
 
 if __name__ == "__main__":
     main()
